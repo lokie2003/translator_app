@@ -1,5 +1,4 @@
 ctranslate2
-huggingface_hub
+huggingface-hub
 sentencepiece
-ctranslate2 sentencepiece huggingface-hub gradio tqdm
-pip install --upgrade pip
+streamlit
