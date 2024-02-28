@@ -31,9 +31,7 @@ def translate(input_text, target_language):
 
 st.title("MADLAD-400 Translation Demo")
 st.markdown("""
-<p>
-Translator using <a href='https://arxiv.org/abs/2309.04662' target='_blank'>MADLAD-400</a>, a multilingual machine translation model on 250 billion tokens covering over 450 languages using publicly available data. This demo application uses  <a href="https://huggingface.co/santhosh/madlad400-3b-ct2">santhosh/madlad400-3b-ct2</a> model, which is a ctranslate2 optimized model of <a href="https://huggingface.co/google/madlad400-3b-mt">google/madlad400-3b-mt</a>
-</p>
+
 """, unsafe_allow_html=True)
 
 input_text = st.text_area("Input Text", "Imagine a world in which every single person on the planet is given free access to the sum of all human knowledge.")
