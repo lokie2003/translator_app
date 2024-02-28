@@ -1,1 +1,1 @@
-# translator_app
+Translator using <a href='https://arxiv.org/abs/2309.04662' target='_blank'>MADLAD-400</a>, a multilingual machine translation model on 250 billion tokens covering over 450 languages using publicly available data. This demo application uses  <a href="https://huggingface.co/santhosh/madlad400-3b-ct2">santhosh/madlad400-3b-ct2</a> model, which is a ctranslate2 optimized model of <a href="https://huggingface.co/google/madlad400-3b-mt">google/madlad400-3b-mt</a>
