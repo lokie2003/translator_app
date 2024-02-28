@@ -2,4 +2,4 @@ ctranslate2
 huggingface_hub
 sentencepiece
 ctranslate2 sentencepiece huggingface-hub gradio tqdm
-
+pip install --upgrade pip
